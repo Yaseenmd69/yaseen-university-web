@@ -1,0 +1,70 @@
+body{
+
+
+background-image: url(university\ pic.jpg);
+background-size: cover;
+
+}
+div{
+color: black;
+background-color: whitesmoke;
+opacity: 80%;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+
+.solid{
+
+
+border-style: solid;
+background-color: gold
+
+
+
+}
+
+h1{
+
+color: blue;
+background-color: gold;
+opacity: 80%;
+
+}
+#boxmargin{
+
+background-color: greenyellow;
+border: 10px solid brown;
+width: 400px;
+margin: 60px;
+padding: 50px;
+
+}
+
+.navbar ul{
+ list-style-type: none;
+background-color: darkblue;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+}
+
+.navbar a{
+color: white;
+display: block;
+text-decoration: none;
+padding: 15px;
+text-align: center;
+}
+.navbar a:hover{
+
+background-color: gold;
+
+}
+.navbar li{
+
+    float: left;
+}

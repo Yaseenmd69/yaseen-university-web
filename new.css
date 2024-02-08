@@ -1,0 +1,157 @@
+body {
+
+
+/*                  background-color: lawngreen; */
+
+background-image: url(html\ pic.jpg);
+background-size: cover;
+
+}
+
+
+h2 {
+
+color: brown;
+background-color: darkgray;
+
+
+}
+
+#p1{
+
+    color: chocolate;
+    background-color: yellow;
+}
+
+#p2{
+    
+    color: red;
+    background-color: pink;
+}
+
+div{
+
+
+color: crimson;
+background-color: cadetblue;
+opacity: 90%;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.dotted{
+
+border-style: dotted;
+
+}
+
+.solid{
+
+    border-style: solid;
+}
+
+.double{
+
+    border-style: double;
+}
+
+.inset{
+
+    border-style: inset;
+}
+
+
+.margin{
+
+border: 2px solid;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 70px;
+margin-right: 150px;
+color: blueviolet ;
+}
+
+
+.oyii{
+
+    border: 3px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+
+#boxmargin{
+background-color: aqua;
+ border: 20px solid brown;
+ width: 300px;
+ margin: 50px;
+ padding: 60px;   
+}
+
+.align{
+
+background-color: cadetblue;
+text-align: center;
+
+
+}
+
+
+.ul{
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+
+}
+li{
+
+    float: left;
+}
+
+li a{
+
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a :hover:not(.active){
+
+background-color: #111;
+
+}
+.active{
+
+    background-color: #4aa64a;
+}
+
+.navbar ul{
+
+    list-style-type: none;
+    background-color: darkblue;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: red;
+}
+.navbar li{
+    float: left;
+}
